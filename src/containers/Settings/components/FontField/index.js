@@ -1,7 +1,7 @@
 import React from 'react';
 import { Dropdown } from 'react-bootstrap';
-import fontProperties from '../../../assets/json/fontProperties.json';
-import SelectOptions from './SelectOptions';
+import fontProperties from '../../../../assets/json/fontProperties.json';
+import SelectOptions from './components/SelectOptions';
 
 const FontField = () => {
   const [selectedMenuOption, setMenuOption] = React.useState({

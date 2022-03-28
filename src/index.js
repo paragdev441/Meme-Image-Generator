@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ImageContainer from './containers/ImageContainer/ImageContainer';
-import Settings from './containers/Settings/Settings';
+import ImageContainer from './containers/ImageContainer/ImageContainer.lazy';
+import Settings from './containers/Settings/Settings.lazy';
 import reducer from './redux/reducer/index.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';

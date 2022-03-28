@@ -18,6 +18,7 @@ textarea {
   font-size: 22px;
   color: white;
   font-family: impact;
+  overflow: hidden;
 }
 
 textarea::placeholder {
@@ -30,6 +31,11 @@ textarea:hover {
 
 textarea:active {
   cursor: initial;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent !important; /* Optional: just make scrollbar invisible */
 }
 
 h3 {

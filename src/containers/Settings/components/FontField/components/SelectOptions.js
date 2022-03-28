@@ -1,7 +1,11 @@
 import React from 'react';
 import { Form } from 'react-bootstrap';
 import { connect } from 'react-redux';
-import { addFontStyles, addDimensions, addColor } from '../../../redux/actions';
+import {
+  addFontStyles,
+  addDimensions,
+  addColor,
+} from '../../../../../redux/actions';
 
 class SelectOptions extends React.Component {
   handleSelectedFontOption = ({ target }) => {

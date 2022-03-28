@@ -1,6 +1,6 @@
 import React from 'react';
 import { Dropdown } from 'react-bootstrap';
-import ColorPicker from './ColorPicker';
+import ColorPicker from './components/ColorPicker';
 
 const ColorField = () => {
   const [displayColorPicker, setDisplayColorPicker] = React.useState(false);

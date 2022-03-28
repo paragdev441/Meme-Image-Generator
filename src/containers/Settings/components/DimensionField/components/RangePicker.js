@@ -1,7 +1,7 @@
 import React from 'react';
 import { Form } from 'react-bootstrap';
 import { connect } from 'react-redux';
-import { addDimensions } from '../../../redux/actions';
+import { addDimensions } from '../../../../../redux/actions';
 
 const dimesnions = {
   width: { min: 41, max: 300 },

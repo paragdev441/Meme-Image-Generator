@@ -1,6 +1,6 @@
 import React from 'react';
 import { Dropdown } from 'react-bootstrap';
-import RangePicker from './RangePicker';
+import RangePicker from './components/RangePicker';
 
 const DimensionField = () => {
   const [selectedMenuOption, setMenuOption] = React.useState({

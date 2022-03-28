@@ -3,9 +3,9 @@ import domtoimage from 'dom-to-image';
 import { Accordion, Form, Button } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import { addRandomMeme, addMemeText } from '../../redux/actions';
-import FontField from './components/FontField';
-import DimensionField from './components/DimensionField';
-import ColorField from './components/ColorField';
+import FontField from './components/FontField/FontField.lazy';
+import DimensionField from './components/DimensionField/DimensionField.lazy';
+import ColorField from './components/ColorField/ColorField.lazy';
 import MemeImages from '../../api/MemeImages';
 
 class Settings extends React.Component {
@@ -41,9 +41,6 @@ class Settings extends React.Component {
   render() {
     const { memeText } = this.props;
     return (
-      // <div>
-      //   <button onClick={this.generateImage}>Generate</button>
-      // </div>
       <div className="settings">
         <h3>Settings</h3>
         <br />
