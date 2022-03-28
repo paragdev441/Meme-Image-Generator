@@ -1,0 +1,16 @@
+.topnav {
+  background: black;
+  color: #c1e7ff;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.nav_item {
+  padding: 1% 6%;
+}
+
+.nav_item:hover {
+  background: #c0e7fe;
+  color: black;
+}

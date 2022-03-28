@@ -1,0 +1,37 @@
+.color {
+  width: 36px;
+  height: 14px;
+  border-radius: 2px;
+  /* background: #f44336; */
+
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+}
+
+.swatch {
+  padding: 5px;
+  /* background: #000; */
+  border: 2px solid black;
+  box-shadow: 0 0 0 1px #13121200;
+  display: inline-block;
+  cursor: pointer;
+  align-self: center;
+
+  width: 36px;
+  height: 37px;
+  border-radius: 50%;
+}
+
+.popover {
+  position: absolute;
+  z-index: 2;
+}
+
+.cover {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}

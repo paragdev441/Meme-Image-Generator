@@ -1,0 +1,15 @@
+.container_block {
+  /* text-align: center; */
+  height: 5vh;
+  background-color: #f3ac9fb5;
+  border: 4px solid #ef7676;
+  width: 100%;
+}
+
+.box {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  overflow: overlay;
+  background-size: 100% 100%;
+}
