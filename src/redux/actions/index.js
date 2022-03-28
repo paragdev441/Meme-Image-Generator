@@ -14,7 +14,6 @@ const addRandomMeme = imageUrl => {
 };
 
 const addMemeText = text => {
-  // console.log('text', text);
   return {
     type: Add_TEXT,
     payload: text,

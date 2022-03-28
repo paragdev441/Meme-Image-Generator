@@ -12,7 +12,7 @@ const INITIAL_STATE = {
     style: 'normal',
   },
   dimension: {
-    width: 41,
+    width: 210,
     height: 36,
   },
   color: {
@@ -26,7 +26,6 @@ const memeTextFontStylesReducer = (state = INITIAL_STATE, action) => {
     case Add_TEXT_FONT_STYLES:
       return { ...state, font: { ...state.font, ...action.payload } };
     case Add_TEXT_DIMENSIONS:
-      console.log('action', action);
       return {
         ...state,
         dimension: { ...state.dimension, ...action.payload },

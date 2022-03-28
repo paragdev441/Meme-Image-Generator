@@ -10,7 +10,6 @@ const dimesnions = {
 
 class RangePicker extends React.Component {
   handleSelectedDimensionOption = ({ target }) => {
-    console.log('target', typeof Number(target.value));
     const { optionKey } = this.props;
     this.props.addDimensions({
       [optionKey]: Number(target.value),
