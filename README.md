@@ -13,6 +13,10 @@ Meme Generator lets you:
 2. Add text to the Meme image.
 3. Add styles to the text like font family, font style, width, height, color, etc.
 
+## Video demonstaration
+
+[Video Tutorial](https://www.loom.com/share/360a887f557c4c3ca82eb037f37a0e6c)
+
 ## Usage
 
 [Live URL](https://62417640512d9d0c44620e0c--meme-image-placeholder.netlify.app/)
