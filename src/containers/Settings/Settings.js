@@ -82,7 +82,7 @@ class Settings extends React.Component {
                   className="setting-btn"
                   onClick={this.generateRandomImage}
                 >
-                  Upload Random Meme Image
+                  Upload
                 </Button>
                 <Button
                   variant="primary"

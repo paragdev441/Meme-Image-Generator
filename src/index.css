@@ -1,7 +1,8 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: #6cc1ff;
+  background: #f3eade;
+  box-sizing: border-box;
 }
 
 #image-placeholder {
@@ -27,9 +28,8 @@ textarea::placeholder {
 }
 
 h3 {
-  border-bottom: 2px solid #4a6dde;
+  color: #5a3414;
   padding: 7px;
-  color: #064097;
   font-family: cursive;
   font-size: xx-large;
   font-weight: bold;
@@ -37,15 +37,19 @@ h3 {
 
 .main {
   display: flex;
-  background: #d8e0fe94;
-  margin: 15px 30px;
+  /* background: #eadeb9; */
+  /* margin: 50px 135px; */
   padding: 35px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
 }
 
 #root {
   width: 100%;
-  border: 5px solid #3d61dbeb;
+  border: 5px solid #fdb65e;
   margin-left: 10px;
+  border-radius: 10px;
 }
 
 .topnav {
@@ -117,7 +121,7 @@ h3 {
   margin: 0 !important;
   width: 25px;
   height: 25px;
-  background: #3f65e2;
+  background: #a58366;
   cursor: pointer;
 }
 
@@ -130,15 +134,19 @@ h3 {
 
 /* Slider styles */
 
+.accordion-body {
+  background-color: beige;
+}
+
 .accordion-button:not(.collapsed) {
-  color: #064097;
-  background-color: #31abf14f !important;
+  color: #a58366;
+  background: #f3eade !important;
   box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
   font-weight: bold;
 }
 
 .setting-btn {
-  background: linear-gradient(45deg, #28cbcb 30%, #3199f3e8 90%);
+  background: linear-gradient(45deg, #d6ad2c 30%, #cd6e1e 90%);
   border: 0;
   color: #ffffff;
   font-weight: bold;
@@ -149,8 +157,9 @@ h3 {
 }
 
 .accordion-button {
-  color: #5e84ff;
-  background: #c1eeff91 !important;
+  color: #a58366;
+  font-style: italic !important;
+  background: #f3eade !important;
 }
 
 .file-container {
@@ -174,7 +183,10 @@ h3 {
 
 @media only screen and (max-width: 950px) {
   .main {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   #root {
